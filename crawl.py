@@ -29,7 +29,8 @@ def extract_keywords(soup, brand_names):
     stop_words = set(stopwords.words("english"))
     non_relevant_words = {
         'shop', 'store', 'buy', 'product', 'products', 'item', 'items', 'new', 'card', 
-        'equipment', 'best', 'site', 'content', 'term', 'terms', 'back', 'backward', 'forwards', 'forward'
+        'equipment', 'best', 'site', 'content', 'term', 'terms', 'back', 'backward', 'forwards', 'forward', 'alo',
+        'yoga', 'sale', 'sell'
     }  # Add more words as needed
     non_relevant_words.update(brand_names)
 
